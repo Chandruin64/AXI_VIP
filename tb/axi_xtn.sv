@@ -190,7 +190,7 @@ class axi_xtn extends uvm_sequence_item;
         // Write Address Channel
         printer.print_field("AWID",    AWID,    4, UVM_DEC);
         printer.print_field("AWADDR",  AWADDR,  32, UVM_HEX);
-        printer.print_field("AWLEN",   AWLEN,   4, UVM_DEC);
+        printer.print_field("AWLEN",   AWLEN,   8, UVM_DEC);
         printer.print_field("AWSIZE",  AWSIZE,  3, UVM_DEC);
         printer.print_field("AWBURST", AWBURST, 2, UVM_DEC);
 
@@ -210,7 +210,7 @@ class axi_xtn extends uvm_sequence_item;
         // Read Address Channel
         printer.print_field("ARID",    ARID,    4, UVM_DEC);
         printer.print_field("ARADDR",  ARADDR,  32, UVM_HEX);
-        printer.print_field("ARLEN",   ARLEN,   4, UVM_DEC);
+        printer.print_field("ARLEN",   ARLEN,   8, UVM_DEC);
         printer.print_field("ARSIZE",  ARSIZE,  3, UVM_DEC);
         printer.print_field("ARBURST", ARBURST, 2, UVM_DEC);
 
