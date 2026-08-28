@@ -620,8 +620,7 @@ Potential improvements for the VIP include:
 
 ## Author
 
-**Chandirapriyan K**
-
+**Chandirapriyan K**  
 Design Verification | RTL Design
 
 **Skills:** SystemVerilog, UVM, AXI3, SVA, Functional Coverage, Constrained-Random Verification, TLM, QuestaSim, Synopsys VCS, Linux
