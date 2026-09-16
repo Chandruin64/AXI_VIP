@@ -163,6 +163,7 @@ AXI3_UVM_VIP/
 │   └── pkg.sv
 │
 ├── tb/
+│   ├── top.sv
 │   ├── env.sv
 │   ├── axi_xtn.sv
 │   ├── env_config.sv
