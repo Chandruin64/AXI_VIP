@@ -106,7 +106,7 @@ The verification environment supports the complete AXI3 channel architecture.
 ## UVM Testbench Architecture
 
 <p align="center">
-  <img src="docs/images/uart_waveform.png" width="1000">
+  <img src="Uart Architecture.png" width="1000">
 </p>
 
 The **Master agent** generates AXI3 stimulus using its sequencer and driver.
